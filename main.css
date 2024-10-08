@@ -1,17 +1,38 @@
 body {
     background-color:#fbe6ce;
+    font-size: 24px;
 }
-nav { 
+nav, footer { 
     background-color: steelblue;
+    display: flex;
+    justify-content: space-around;
 }
 a {
     color: black;
     padding: 25px;
     font-size: 24px;
 }
+nav a{
+    text-decoration: none;
+}
+a:hover {
+    background-color: #fbe6ce;
+    color: steelblue;
+}
+.link {
+    color: steelblue;
+    padding:0;
+}
 h1 {
     text-align: center;
 }
 img{
-    width: 300px;
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    width: 35%;
+    margin: 25px auto;
+    line-height: 1.2em;
 }
