@@ -1,16 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
 header {
     background-color:#6e645c;
 }
 body {
     background-color: #F2F2F2; 
+    font-family: "Rokkitt", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 main section{
     text-align: center;
+}
+main section img{
+    box-sizing: border-box;
 }
 nav a{
     text-align: center;
     color: #F7E282;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #214163;
@@ -31,9 +41,21 @@ h4{
     height: 725px;
     background-color: #A6998A;
 }
-h1{
+#hero-img{
+    width: 100%;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.home-title{
     text-align: center;
     color: #214163;
+    font-family: "DynaPuff", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h2 {
+    margin: 0;
 }
 .button-box{
     text-align: center;
@@ -42,6 +64,11 @@ h1{
     background-color: #F7E282;
     color: #214163;
     text-decoration: none;
+    font-family: "Rokkitt", Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #8AC3D5;
@@ -49,25 +76,36 @@ h1{
 }
 .msg{
     background-color: #c2ac98;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: #214163;
 }
 .msg p{
     color: #214163;
+    font-family: "Atma", Helvetica, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .logo{
     width: 80px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
-#hero-img{
-    width: 100%;
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #d9c2a3;
 }
 footer{
     background-color: #c2ac98;
     color: #214163;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #214163;
@@ -81,4 +119,7 @@ footer p {
 } 
 footer p a:hover {
     text-decoration: underline;
-}    
+}
+footer .social{
+    padding-top: 15px;
+}
