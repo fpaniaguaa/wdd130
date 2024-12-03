@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+header {
+    background-color:#ABAFC6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    grid-column: 1/2;
+    grid-row: 1/1;
+}
+nav a{
+    text-align: center;
+    color: #3F3A33;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 30px;
+}
+nav a:hover {
+    background-color: #191766;
+    color: #F7E282;
+}
+#nav-logo{
+    grid-column: 2/3;
+    justify-self: center;
+}
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+}
+#hero-img{
+    padding: 20px;
+    height: 700px;
+    width: 1000px;
+}
+#hero-msg{
+    grid-column: 2/4;
+    font-family: "Trade Winds";
+    font-size: 35px;
+}
+p{
+    font-family: "Lora";
+    font-size: 25px;
+}
+
+#home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+}
+.para1, .para2, .para3{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.subhead{
+    font-family: "Trade Winds";
+    font-size: 30px;
+    margin-top: 30%;
+}
+.subhead2{
+    font-family: "Trade Winds";
+    font-size: 30px;
+    margin-top: 30%;
+}
+.subhead3{
+    font-family: "Trade Winds";
+    font-size: 30px;
+    margin-top: 30%;
+}
+
+
+
+footer{
+    background-color: #ABAFC6;
+    color: #191766;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color: #191766;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #191766;
+}
+footer p {
+    font-size: 1.2em;
+} 
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social{
+    padding-top: 15px;
+}
